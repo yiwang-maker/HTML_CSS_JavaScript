@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <style type="text/css">
+            #div1{font-family:Arial; font-size:20px; font-weight:bold; color:#06558d;}
+            #div2{font-family:"Times New Roman"; font-size:40px; color:orange;} 
+            #div3{font-family:"微软雅黑"; font-size:50px; font-style:normal; color:red;}
+            /*使用元素选择器，定义所有p元素样式*/
+            p{font-family:Arial,Verdana,Georgia; color:#06578d;}
+            span{font-family:"微软雅黑","Arial"; font-size:28px; font-weight:bold; color:blue;}
+            
+        </style>
+    </head>
+    <!--对于font-family属性，如果字体类型只有一个英文单词，则不需要加上双引号；如果字体类型是多个英文单词或者中文的，则需要加上双引号。注意，这里的双引号是英文双引号，而不是中文双引号-->
+    <!--对于16进制颜色值，有两个我们需要知道的：#000000是黑色，#FFFFFF是白色。-->
+    <!--
+字体相关的CSS属性
+属性       说明
+font-family  字体类型
+font-size    字体大小
+font-weight  字体粗细
+font-style   字体风格
+color        字体颜色
+-->
+
+    <body>
+        <div id="div1">Arial，这是粗体20pixel。</div>
+        <div id="div2">Times New Roman</div>
+        <div id="div3">微软雅黑</div>
+        <p>Rome was not built in a day.</p>
+        <span>“有规划的人生叫蓝图，没规划的人生叫拼图。”</span>
+    </body>
+</html>
