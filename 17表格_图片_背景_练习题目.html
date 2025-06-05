@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style type="text/css">
+        table,th,td{border:1px solid silver;}
+        table{border-collapse: collapse;}
+        img
+        {
+            width: 60px;
+            height: 60px;
+            border: 1px solid red;
+        }
+        .div1{ text-align: left; }
+        .div2{ text-align: center; }
+        .div3{ text-align: right; }
+        /*color属性用于定义“文本颜色”，而background-color属性用于定义“背景颜色”*/
+        #div1{
+            width:250px; 
+            height:170px; 
+            background-color:hotpink; 
+            color:white; 
+            background-image: url(img/haizei.png);
+            background-repeat:no-repeat;
+            background-position:40px 20px;
+        }
+        #div2{background-color:#87CEFA;}
+    </style>
+</head>
+<body>
+    <div id="div1">背景颜色：hotpink</div>
+    <div id="div2">背景颜色：#87CEFA</div>
+    <div class="div1">
+        <img src="img/girl.gif" alt=""/>
+    </div>
+    <div class="div2">
+        <img src=" img/girl.gif" alt=""/>
+    </div>
+    <div class="div3">
+        <img src=" img/girl.gif" alt=""/>
+    </div>
+    <img src="img/girl.gif" alt="卡通女孩" />
+    <table>
+        <caption>表格标题</caption>
+        <!--表头-->
+        <thead>
+            <tr>
+                <th>表头单元格1</th>
+                <th>表头单元格2</th>
+            </tr>
+        </thead>
+        <!--表身-->
+        <tbody>
+            <tr>
+                <td>表行单元格1</td>
+                <td>表行单元格2</td>
+            </tr>
+            <tr>
+                <td>表行单元格3</td>
+                <td>表行单元格4</td>
+            </tr>
+        </tbody>
+        <!--表脚-->
+        <tfoot>
+            <tr>
+                <td>表行单元格5</td>
+                <td>表行单元格6</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
